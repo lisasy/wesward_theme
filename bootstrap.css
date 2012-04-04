@@ -1,0 +1,193 @@
+/*Bootstrap*/
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+/*Header*/ 
+p {
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 18px;
+  margin-bottom: 9px;
+  color: #353434;
+}
+p small {
+  font-size: 11px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+h3{
+	font-size: 1.5em;
+	line-height: 1.5em;
+	}
+/*h1 {
+  margin-bottom: 18px;
+  font-size: 30px;
+  line-height: 36px;
+}
+h1 small {
+  font-size: 18px;
+}
+h2 {
+  font-size: 24px;
+  line-height: 36px;
+}
+h2 small {
+  font-size: 14px;
+}
+h3,
+h4,
+h5,
+h6 {
+  line-height: 36px;
+}
+h3 {
+  font-size: 18px;
+}
+h3 small {
+  font-size: 14px;
+}
+h4 {
+  font-size: 16px;
+}
+h4 small {
+  font-size: 12px;
+}
+h5 {
+  font-size: 14px;
+}
+h6 {
+  font-size: 13px;
+  text-transform: uppercase;
+}*/
+li {
+  line-height: 18px;
+  color: #353434;
+}   
+.pagination { 
+clear:both;
+position:relative;
+padding-bottom: 50px; 
+}
+
+.pagination span, 
+.pagination a {
+display:block;
+border: 1px solid #d3d3d3;
+float:left;
+margin: 2px 2px 2px 0;
+padding:6px 9px 5px 9px;
+text-decoration:none;
+width:auto;
+background: #fff;
+color: #D14B30; 
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+transition: all 0.3s ease;
+}
+.pagination a:hover{
+color:#fff;
+background: #D14B30;
+}
+.pagination .current{
+padding:6px 9px 5px 9px;
+background: #D14B30;
+color:#fff;
+}
+
+/*Tabs*/
+.tabs {
+  margin: 0 0 18px;
+  padding: 0;
+  list-style: none;
+  zoom: 1;
+}
+.tabs:before, .tabs:after {
+  display: table;
+  content: "";
+  zoom: 1;
+}
+.tabs:after {
+  clear: both;
+}
+.tabs > li {
+  float: left;
+}
+.tabs > li > a {
+  display: block;
+}
+.tabs {
+  /*background: @paletan;*/
+
+  background: #ffffff;
+  border-color: rgba(0, 0, 0, 0.6);
+  border-style: solid;
+  border-width: 0 0 1px;
+}
+.tabs > li {
+  position: relative;
+  margin-bottom: -1px;
+}
+.tabs > li > a {
+  color: #353434;
+  padding: 0 15px;
+  margin-right: 2px;
+  line-height: 37px;
+  border: 1px solid transparent;
+}
+.tabs > li > a:hover {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-color: rgba(0, 0, 0, 0.6);
+  border-bottom: 1px solid transparent; 
+}
+.tabs .active > a, 
+.tabs .active > a:hover,    
+.tabs .current_page_item > a{
+  color: #d14b30;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.6); 
+  border-bottom-color: transparent;   
+  cursor: default;
+} 
+.tabs .current_page_item > a:hover{
+	background: #d14b30;
+	color: #ffffff;
+}
+
+.tabs .menu-dropdown, .tabs .dropdown-menu {
+  top: 35px;
+  border-width: 1px;
+}
+.tabs a.menu:after, .tabs .dropdown-toggle:after {
+  border-top-color: #999;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+.tabs li.open.menu .menu, .tabs .open.dropdown .dropdown-toggle {
+  border-color: #999;
+}
+.tabs li.open a.menu:after, .tabs .dropdown.open .dropdown-toggle:after {
+  border-top-color: #555;
+}
+.tab-content > .active
+.tab-content> .current_page_item {
+  display: block;
+}
